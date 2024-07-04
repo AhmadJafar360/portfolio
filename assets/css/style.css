@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #000000;
   background-color: lightcyan;
 }
 
@@ -21,6 +21,7 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+  color: whitesmoke;
 }
 
 /* Top Button */
@@ -67,7 +68,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: rgb(5, 5, 5);
   overflow-y: auto;
 }
 
@@ -75,7 +76,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #0c0d11;
 }
 
 #header .profile h1 {
@@ -97,7 +98,7 @@ h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  background: transparent;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -289,7 +290,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: black;
 }
 
 .section-title {
@@ -302,7 +303,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: whitesmoke;
 }
 
 .section-title h2::after {
@@ -325,10 +326,14 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  background-color: black;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: lightcyan;
 }
 
 .about .content ul {
@@ -353,8 +358,10 @@ section {
   line-height: 0;
 }
 
-.about .content p:last-child {
-  margin-bottom: 0;
+.about .content p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: lightgray;
+  margin-bottom: 5%;
 }
 
 /*--------------------------------------------------------------
@@ -400,6 +407,10 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume {
+  background-color: #000000;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -427,9 +438,10 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #1a1a1a;
   padding: 5px 15px;
   display: inline-block;
+  color: lightcyan;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -440,6 +452,11 @@ section {
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  color: #929292;
+}
+
+.resume .resume-item p {
+  color: lightgray;
 }
 
 .resume .resume-item:last-child {
@@ -470,7 +487,7 @@ section {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: #000000;
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -483,14 +500,14 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #585858;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #ffffff;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -627,6 +644,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+  background-color: black;
+}
+
 .services .icon-box {
   margin-bottom: 20px;
 }
@@ -677,6 +698,7 @@ section {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+  color: rgb(187, 187, 187);
 }
 
 /*--------------------------------------------------------------
@@ -703,13 +725,17 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #6b6b6b;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: lightgoldenrodyellow;
   margin: 0;
+}
+
+.testimonials .testimonial-item p {
+  color: #ffffff;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
@@ -735,18 +761,18 @@ section {
   font-style: italic;
   margin: 0 15px 15px 15px;
   padding: 20px;
-  background: #fff;
+  background: #1a1a1a;
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.1);
 }
 
 .testimonials .testimonial-item p::after {
   content: "";
   width: 0;
   height: 0;
-  border-top: 20px solid #fff;
+  border-top: 20px solid #1a1a1a;
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
   position: absolute;
@@ -776,11 +802,12 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+  background-color: black;
 }
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: #000000;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -804,14 +831,18 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #ffffff;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #cccccc;
+}
+
+.contact .section-title p {
+  color: #cccccc;
 }
 
 .contact .info .email p {
@@ -983,7 +1014,7 @@ iframe {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: rgb(5, 5, 5);
 }
 
 #footer .copyright {
