@@ -68,7 +68,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: rgb(5, 5, 5);
+  background: #0c0d11;
   overflow-y: auto;
 }
 
@@ -76,7 +76,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #0c0d11;
+  border: 8px solid #18191d;
 }
 
 #header .profile h1 {
@@ -1014,7 +1014,7 @@ iframe {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: rgb(5, 5, 5);
+  background: #0c0d11;
 }
 
 #footer .copyright {
