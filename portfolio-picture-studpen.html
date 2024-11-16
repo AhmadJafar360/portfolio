@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Picture - StudPen</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- design CSS Files -->
+    <link href="assets/design/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/design/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/design/aos/aos.css" rel="stylesheet" />
+    <link href="assets/design/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/design/glightbox/css/glightbox.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="portfolio-details-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <h1 class="sitename">Portfolio</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Journey</a></li>
+            <li><a href="activity.html">Activity</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="motivation.html">Motivation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Page Title -->
+      <div class="page-title" data-aos="fade">
+        <div class="heading">
+          <div class="container">
+            <div class="row d-flex justify-content-center text-center">
+              <div class="col-lg-8">
+                <h1>Portfolio Details</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="breadcrumbs">
+          <div class="container">
+            <ol>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li class="current">Picture <em>(Studi Independen)</em></li>
+            </ol>
+          </div>
+        </nav>
+      </div>
+      <!-- End Page Title -->
+
+      <!-- Portfolio Details Section -->
+      <section id="portfolio-details" class="portfolio-details section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/bootcamp/Fd1.png" alt="" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/bootcamp/Fd4.png" alt="" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/bootcamp/Kopok.png" alt="" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/bootcamp/Final.png" alt="" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/bootcamp/Graduation.jpg" alt="" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/bootcamp/ketua.png" alt="" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/bootcamp/FSW.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+                <h3>Picture information</h3>
+                <ul>
+                  <li><strong>Course</strong>: Fullstack Web</li>
+                  <li><strong>Program</strong>: Kampus Merderka MBKM</li>
+                  <li><strong>Lembaga</strong>: Binar Academy</li>
+                  <li><strong>Batch</strong>: 3</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Short Story</h1>
+          <p class="lead">Halo semuanya, Saya Ahmad Jafar Ali ini dari course Fullstack Web kelas 1.</p>
+          <div class="text">
+            <p>
+              Pada kesempatan ini, saya akan membagikan pengalaman yang saya dapatkan ketika mengikuti Studi Independen Di Binar Academy, sebelum saya menceritakan pengalaman saya, terlebih dahulu saya ceritakan alasan kenapa memilih Course
+              Fullstack Web di Binar Academy.
+            </p>
+
+            <p>
+              Pada awalnya, saya hanya mahasiswa yang ingin mempelajari dunia IT karena teknologi sekarang semakin lama semakin modern & canggih. saat masuk ke dunia IT, banyak pemrograman yang saya tidak paham sama sekali karena ada banyak
+              sekali bahasa pemrograman, saya tidak tau yang harus saya pelajari pemrograman yang mana. Saat masuk semester 2, saya mulai mengenal pemrograman web yaitu HTML CSS dan saya mulai tertarik untuk terjun ke bahasa pemrograman
+              web. Awalnya saya membuat website secara manual yaitu html dan css, saat itu belum mengenal tentang framework dalam pembuatan website, pernah mengenal pemrograman PHP yaitu Laravel, bukannya paham tapi malah makin
+              bingung..hehehe, karena saya saat itu masih pemula. Akhirnya saya stuck dan tidak tahu harus bagaimana, ingin menguasai bahasa pemrograman web tapi tidak tahu harus mulai dari mana, saya merasa salah masuk jurusan. Tetapi
+              berkat dukungan dari orang tua, saya tidak mengeluh dan terus jalani apa yang ada di hadapan saya sekarang.
+            </p>
+            <p>
+              Sebelum ikut bootcamp, saya tiap hari-harinya ngoding HTML CSS secara manual, tapi makin lama semakin bosan karena ngoding cuma ini itu aja. Akhirnya saya bilang ke diri sendiri "Kalau kamu terus seperti ini, kamu tidak akan
+              bisa mengembangkan skill, kamu harus mempelajari lebih dalam tentang pemrograman web", karena saya ingin membuat website bukan cuma tampilan (Frontend) saja, tapi juga bisa membuat dari sisi (Backend) yang dibutuhkan oleh
+              frontend. Setelah itu, saya mendapatkan informasi kalau semester 7 yang harusnya kkn bisa di konversi ikut Studi Independen Kampus Merdeka, kemudian saya berinisiatif untuk ikut dan daftar di beberapa mitra yang menyediakan
+              tentang pemrograman web. 2-3 hari kemudian, saya lolos pertama seleksi Studi Independen adalah Binar Academy (Fullstack Web) kemudian di susul mitra lainnya, awalnya ingin mengambil course fullstack walaupun agak ragu, tapi
+              keraguan saya semakin kuat dan semakin bingung karena banyak omongan yang bilang "kalau mengambil fullstack kamu tidak akan bisa kuat, temenku yang ambil fullstack aja mengeluh, katanya susah banget karena bla bla bla bla
+              hahahihi." Ya itu mereka bukan saya, untuk menghilangkan keraguan itu, saya tetap teguh pendirian dan menuruti keinginan untuk bisa pemrograman web dari frontend dan backend, karena yang penting adalah punya banyak pengalaman.
+            </p>
+            <p>
+              Nah, akhirnya saya memilih Binar Academy untuk Belajar, disini saya mempunyai pengalaman banyak dari Hardskill yang belajar dari Html5, Css Framework sampai ke framework ReactJs dan belajar NodeJs sampai ke framework ExpressJs
+              dengan Fasilitator dari Industri sehingga Tech Communication & Presentation Skill, Analytical & Strategic Thinking juga mudah dipahami. Dan juga AAO yang membantu dan memberikan solusi saat student ada kendala selama bootcamp.
+              Setiap hari Senin, Rabu, Jumat selalu ada Forum Discussion Materi dan tugas di setiap materi, kadang ada game dan quiz kecil yang berhadiah.
+            </p>
+            <p>
+              Terakhir saya mau menyampaikan terima kasih kepada "Kampus Merdeka" dan "Binar Academy" sebagai penyelenggara. Mas "Ahmad Hafidh Ayatullah" sebagai fasilitator yang telah memberikan saya banyak pengalaman dan ilmunya, Kak
+              "Silvia S Saragih" sebagai AAO kelas yang telah membantu dan memberikan solusi saat ada kendala yang saya alami selama bootcamp. Teman-teman kelas Fullstack Web 1 yang telah membantu saat kesusahan pengerjaan challenge. Dan
+              tak lupa saya berterima kasih kepada tim final Project @Firman Perdana, @Citra Meida Antika, @Novi Amanda sebagai frontend, @Dewa Biara, @Hendri Permana sebagai backend, dan @Irvan Wijaya @Zain Zaidan @Ro isul sebagai Android.
+            </p>
+            <p>
+              <strong><em>Maaf jika kata-kata ku ada yang tidak nyambung ya hehehehe</em>😁</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- /Portfolio Details Section -->
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+      <div class="container">
+        <h3 class="sitename">Zeno</h3>
+        <p>"Puaslah dengan apa adanya, dan berharap tidak berubah; atau takut pada hari terakhirmu, atau merindukannya."</p>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://facebook.com/ahmad.j.ali.5832" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/ja_far360/" target="_blank"><i class="bi bi-instagram"></i></a>
+          <a href="https://github.com/AhmadJafar360"><i class="bi bi-github" target="_blank"></i></a>
+          <a href="https://www.linkedin.com/in/ahmad-ja-far-ali-a5950522b/"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="container">
+          <div class="copyright"><span>Made with</span> <strong class="px-1 sitename">Love</strong></div>
+          <div class="credits">Ahmad Ja'far Ali ©️ <a>2022</a></div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- design JS Files -->
+    <script src="assets/design/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/design/php-email-form/validate.js"></script>
+    <script src="assets/design/aos/aos.js"></script>
+    <script src="assets/design/typed.js/typed.umd.js"></script>
+    <script src="assets/design/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/design/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/design/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/design/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/design/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/design/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

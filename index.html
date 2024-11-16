@@ -3,687 +3,108 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Index</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-    <title>My Portfolio</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
-
-    <!-- icon -->
+    <!-- Favicons -->
     <link href="assets/img/img-icons.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- Framework -->
-    <link href="assets/design/aos/aos.css" rel="stylesheet" />
+    <!-- design CSS Files -->
     <link href="assets/design/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/design/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-    <link href="assets/design/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link href="assets/design/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="assets/design/aos/aos.css" rel="stylesheet" />
     <link href="assets/design/swiper/swiper-bundle.min.css" rel="stylesheet" />
-    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/design/glightbox/css/glightbox.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
   </head>
 
-  <body>
-    <!-- ======= Mobile nav toggle button ======= -->
-    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <h1 class="sitename">Portfolio</h1>
+        </a>
 
-    <!-- ======= Header ======= -->
-    <header id="header">
-      <div class="d-flex flex-column">
-        <div class="profile">
-          <img src="assets/img/img.jpg" alt="" class="img-fluid rounded-circle" />
-          <h1 class="text-light"><a href="index.html">Ahmad Ja'far Ali</a></h1>
-          <div class="social-links mt-3 text-center">
-            <a href="https://facebook.com/ahmad.j.ali.5832" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="https://www.instagram.com/ja_far360/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="https://jafarali360.blogspot.com" target="_blank" class="google-plus"><i class="bx bxl-blogger"></i></a>
-            <a href="https://www.linkedin.com/in/ahmad-ja-far-ali-a5950522b/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            <a href="https://github.com/AhmadJafar360" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-          </div>
-        </div>
-
-        <nav id="navbar" class="nav-menu navbar">
+        <nav id="navmenu" class="navmenu">
           <ul>
-            <li>
-              <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
-            </li>
-            <li>
-              <a href="#profile" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Profile</span></a>
-            </li>
-            <li>
-              <a href="#journey" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Journey</span></a>
-            </li>
-            <li>
-              <a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a>
-            </li>
-            <li>
-              <a href="#motivation" class="nav-link scrollto"><i class="bx bx-note"></i> <span>Motivation</span></a>
-            </li>
-            <li>
-              <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
-            </li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Journey</a></li>
+            <li><a href="activity.html">Activity</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="motivation.html">Motivation</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <!-- .nav-menu -->
       </div>
     </header>
-    <!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-      <div class="hero-container" data-aos="fade-in">
-        <p>Hello i'm</p>
-        <h1>Ahmad Ja'far Ali</h1>
-        <p><span class="typed" data-typed-items="Software Engineer"></span></p>
-      </div>
-    </section>
-    <!-- End Hero -->
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <img src="assets/img/background.jpg" alt="" data-aos="fade-in" />
 
-    <main id="main">
-      <!-- About Section -->
-      <section id="profile" class="about">
-        <div class="container">
-          <div class="section-title">
-            <h2>Profile</h2>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-4" data-aos="fade-right">
-              <img src="assets/img/Profile.jpeg" class="img-fluid rounded-circle" alt="" />
-            </div>
-            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-              <h3>About me</h3>
-              <p>
-                I am an Informatics Engineering student with a deep interest in technology and innovation. I focus on various areas in informatics, especially web development. I am always eager to learn new things and apply my knowledge in real projects.
-              </p>
-              <p>
-                In web programming, I have skills in programming languages such as HTML,CSS, Bootstrap, and MySQL, Express, React, Node. Js (MERN Stack). Apart from that, I also have experience using Linux, namely Ubuntu Server, GNS3 VM. And to run Linux, I use the VirtualBox Operating System.
-              </p>
-              <p>
-                My goal is to look for new challenges and opportunities to continue learning and developing my skills and to become an expert in the field of fullstack web development and contribute to creating web applications that have a positive impact on users.
-              </p>
-            </div>
+        <div class="container" data-aos="zoom-out" data-aos-delay="100">
+          <h2>Ahmad Ja'far Ali</h2>
+          <p>I'm <span class="typed" data-typed-items="Engineering Student, Software Engineer, Developer, Freelancer"></span><span class="typed-cursor typed-cursor--blink"></span></p>
+          <div class="social-links">
+            <a href="https://facebook.com/ahmad.j.ali.5832" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/ja_far360/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://github.com/AhmadJafar360" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/ahmad-ja-far-ali-a5950522b/" target="_blank"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
       </section>
-      <!-- End About Section -->
-
-      <!-- ======= Skills Section ======= -->
-      <section id="skills" class="skills section-bg">
-        <div class="container">
-          <div class="section-title" data-aos="fade-right">
-            <h2>Skills</h2>
-          </div>
-
-          <div class="row skills-content">
-            <div class="col-lg-4" data-aos="fade-up">
-              <h4>FrontEnd</h4>
-              <div class="container text-center">
-                <div class="row align-items-start">
-                  <div class="col">
-                    <img src="assets/img/portfolio/Logo/html.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="col">
-                    <img src="assets/img/portfolio/Logo/Css.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="col">
-                    <img src="assets/img/portfolio/Logo/Js.png" class="img-fluid" alt="">
-                  </div>
-                </div>
-                <br>
-                <div class="row align-items-start">
-                  <div class="col">
-                    <img src="assets/img/portfolio/Logo/bootstrap.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="col">
-                    <img src="assets/img/portfolio/Logo/React-icon.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="col">
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-              <h4>BackEnd</h4>
-              <div class="container text-center">
-                <div class="row align-items-start">
-                  <div class="col">
-                    <img src="assets/img/portfolio/Logo/nodejs.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="col">
-                    <img src="assets/img/portfolio/Logo/expressjs.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="col">
-                    <img src="assets/img/portfolio/Logo/mysql.png" class="img-fluid" alt="">
-                  </div>
-                </div>
-                <br>
-                <div class="row align-items-start">
-                  <div class="col">
-                    <img src="assets/img/portfolio/Logo/Python.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="col">
-                  </div>
-                  <div class="col">
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-              <h4>Other</h4>
-              <div class="container text-center">
-                <div class="row align-items-start">
-                  <div class="col">
-                    <img src="assets/img/portfolio/Logo/Git.png" class="img-fluid" alt="Git">
-                  </div>
-                  <div class="col">
-                    <img src="assets/img/portfolio/Logo/ubuntu.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="col">
-                    <img src="assets/img/portfolio/Logo/ai.png" class="img-fluid" alt="">
-                  </div>
-                </div>
-                <br>
-                <div class="row align-items-start">
-                  <div class="col">
-                    <img src="assets/img/portfolio/Logo/gns3.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="col">
-                    <img src="assets/img/portfolio/Logo/docker.webp" class="img-fluid" alt="">
-                  </div>
-                  <div class="col">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Skills Section -->
-
-      <!-- ======= Resume Section ======= -->
-      <section id="journey" class="resume">
-        <div class="container">
-          <div class="section-title" data-aos="fade-up">
-            <h2>journey of life</h2>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-6" data-aos="fade-up">
-              <div class="resume-item">
-                <h4><a href="https://radnet-digital.id/" target="_blank" style="color : white">PT. Radnet Digital Indonesia</a></h4>
-                <h5>Februari - Juli 2022</h5>
-                <p><em>Internship - App Service</em></p>
-                <ul>
-                  <li>Ubuntu Server 20.04 LTS</li>
-                  <li>Asisten Junior Pelatihan Lokakarya "Konfigurasi Mail Server dengan Domain Indonesia"</li>
-                  <li>Mail Server IRedMail 1.5.2 dengan VPS</li>
-                  <li>Topologi Jaringan di GNS3 VM Web UI</li>
-                  <li>Implementasi Docker Container menggunakan Portainer</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="resume-item">
-                <h4><a href="https://www.binaracademy.com/" target="_blank" style="color : white">Binar Academy</a></h4>
-                <h5>Agustus 2022 - Desember 2022</h5>
-                <p>
-                  <em>Independent Study - Fullstack Web Development</em>
-                </p>
-                <ul>
-                  <li>Fullstack Web, HTML5, CSS, CSS Framework</li>
-                  <li>Terminal dan IDE, GIT, Web Layout, Responsive Design</li>
-                  <li>Data Structure, Operator & Expression, Javascript Algorithm</li>
-                  <li>OOP in Javascript, DOM, NodeJS, HTTP Server</li>
-                  <li>Design Pattern, Asynchronus, Authentication, Open API</li>
-                  <li>ReactJS, React Router & backend integration, OAUTH, Redux</li>
-                  <li>ExpressJS, Restful API, Database, ORM</li>
-                  <li>Web Socket, SSR (Server Side Rendering) React / With NextJS</li>
-                  <li>Media handling, ESLINT</li>
-                  <li>Unit testing & TDD, Deployment & CI/CD</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Resume Section -->
-
-      <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio section-bg">
-        <div class="container">
-          <div class="section-title">
-            <h2>Portfolio</h2>
-          </div>
-
-          <div class="row" data-aos="fade-up">
-            <div class="col-lg-12 d-flex justify-content-center">
-              <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-app">Pict</li>
-                <li data-filter=".filter-card">Certificate</li>
-                <li data-filter=".filter-web">Project</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="row portfolio-container" data-aos="fade-up">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Certificate.png" class="img-fluid" alt="" />
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/logo-idn.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                  <a href="linux-fundamentals.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/MeTime.jpg" class="img-fluid" alt="" />
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/gallery.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                  <a href="gallery.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Certificate.png" class="img-fluid" alt="" />
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/MAN.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                  <a href="prodistik.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Project.jpg" class="img-fluid mx-auto d-block" alt="" />
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Docker.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                  <a href="docker.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web"">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Project.jpg" class="img-fluid mx-auto d-block" alt="" />
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/GNS3 VM.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                  <a href="gns.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/MeTime.jpg" class="img-fluid" alt="" />
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/ipnu.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                  <a href="ipnu.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Project.jpg" class="img-fluid mx-auto d-block" alt="" />
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/iRedMail.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                  <a href="iRedMail.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Certificate.png" class="img-fluid" alt="" />
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/img-radnet.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                  <a href="radnet.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/MeTime.jpg" class="img-fluid" alt="" />
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Coffee.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                  <a href="Coffee.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Certificate.png" class="img-fluid" alt="" />
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/bootcamp/Sertifikat.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Project.jpg" class="img-fluid mx-auto d-block" alt="" />
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/BinarAcademy.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                  <a href="binar.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/MeTime.jpg" class="img-fluid" alt="" />
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Logo.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                  <a href="bootcamp.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Project.jpg" class="img-fluid mx-auto d-block" alt="" />
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Pena.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                  <a href="https://pelajarnutracal.github.io/" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Portfolio Section -->
-
-      <!-- ======= Software Section ======= -->
-      <section class="services">
-        <div class="container">
-          <div class="section-title">
-            <h2>Activity</h2>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-              <div class="icon"><i class="bi bi-moon-stars"></i></div>
-              <h4 class="title">Sleep</h4>
-              <p class="description">Sesibuk apapun yang kita lakukan, jangan lupa untuk istirahat dan tidur.</p>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bi bi-cup-hot"></i></div>
-              <h4 class="title">Coffee</h4>
-              <p class="description">Sebelum menjalani hari, tidak lupa minum kopi agar makin semangat.</p>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="bi bi-headset"></i></div>
-              <h4 class="title">Listening Music</a></h4>
-              <p class="description">Biar tidak jenuh, mendengarkan music bisa dilakukan saat istirahat.</p>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon"><i class="bi bi-code-slash"></i></div>
-              <h4 class="title">Programming</a></h4>
-              <p class="description">Html, Css Framework, ReactJS, NodeJS Express, MySQL.</p>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon"><i class="bi bi-terminal"></i></div>
-              <h4 class="title">Artificial Intelligence</h4>
-              <p class="description">bahasa pemrograman untuk belajar kecerdasan buatan adalah Python</p>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-              <div class="icon"><i class="bi bi-repeat"></i></div>
-              <h4 class="title">Repeat</h4>
-              <p class="description">Mengulangi setiap hari kecuali hari sabtu & minggu karena libur</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Services Section -->
-
-      <!-- ======= Testimonials Section ======= -->
-      <section id="motivation" class="testimonials section-bg">
-        <div class="container">
-          <div class="section-title">
-            <h2>Motivation</h2>
-          </div>
-
-          <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-item" data-aos="fade-up">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    “Hidup tidak pernah mudah. Ada pekerjaan yang harus dilakukan dan kewajiban yang harus dipenuhi kewajiban terhadap kebenaran, keadilan, dan kebebasan.”
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/motivation/John F. Kennedy.jpg" class="testimonial-img" alt="" />
-                  <h3>John F. Kennedy</h3>
-                  <h4>American Politician</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    “Ketika satu pintu kebahagiaan tertutup, pintu lain terbuka tapi seringkali kita terlalu lama melihat pintu yang tertutup sehingga tidak melihat pintu yang telah dibukakan untuk kita.”
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/motivation/Hellen Keller.jpg" class="testimonial-img" alt="" />
-                  <h3>Helen Keller</h3>
-                  <h4>American author</h4>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    “Kesuksesan dan kebahagiaan terletak pada diri sendiri. Tetaplah berbahagia dan kebahagiaanmu dan kamu akan membentuk sebuah karakter kuat melawan kesulitan.”
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/motivation/Hellen Keller.jpeg" class="testimonial-img" alt="" />
-                  <h3>Helen Keller</h3>
-                  <h4>American author</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    "Jika masa mudamu selalu diremehkan orang lain, maafkan mereka. Tetapi ingat dan catat nama mereka untuk memotivasi dirimu selalu menjadi lebih baik dari mereka."
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/motivation/Sandiaga Uno.png" class="testimonial-img" alt="" />
-                  <h3>Sandiaga Uno</h3>
-                  <h4>Menteri Pariwisata</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    “Perubahan itu menyakitkan, Ia menyebabkan orang merasa tidak aman, bingung, dan marah. Orang menginginkan hal seperti sediakala, karena mereka ingin hidup mudah.”
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/motivation/Richard Marcinko.jpg" class="testimonial-img" alt="" />
-                  <h3>Richard Marcinko</h3>
-                  <h4>Commander</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    “Ketika sesuatu yang mulia dan indah tapi tak seorang pun memperhatikan, jangan bersedih. Karena matahari tampil cantik setiap pagi meski sebagian besar penonton masih tidur."
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/motivation/John Lennon.jpg" class="testimonial-img" alt="" />
-                  <h3>John Lennon</h3>
-                  <h4>Musician</h4>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    “Engkau tak dapat meraih ilmu kecuali dengan enam hal, yakni: cerdas, selalu ingin tahu, tabah, punya bekal dalam menuntut ilmu, bimbingan dari guru, dan dalam waktu yang lama."
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/motivation/Ali bin Abu Tholib.JPG" class="testimonial-img" alt="" />
-                  <h3>Ali bin Abu Tholib</h3>
-                  <h4>Khulafaur Rasyidin ke-4</h4>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    “Masa depan memberi penghargaan bagi mereka yang terus maju. Saya tidak punya waktu untuk mengasihani diri sendiri. Saya tidak punya waktu untuk mengeluh."
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/motivation/Barack Obama.jpg" class="testimonial-img" alt="" />
-                  <h3>Barack Obama</h3>
-                  <h4>44th President of the United States</h4>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    “Kamu tidak bisa kembali dan mengubah awal saat kamu memulainya, tapi kamu bisa memulainya lagi dari mana kamu berada sekarang dan ubah akhirnya."
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/motivation/CS Lewis.jpg" class="testimonial-img" alt="" />
-                  <h3>C.S Lewis</h3>
-                  <h4>Novelist</h4>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    “Pendidikan itu bukan sebuah produk seperti gelar, diploma, pekerjaan, atau uang yang dihasilkan; pendidikan itu suatu proses yang tak akan pernah berakhir."
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/motivation/Bel Kaufman.jpg" class="testimonial-img" alt="" />
-                  <h3>Belf Kaufman</h3>
-                  <h4>Writer</h4>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    "Ingatkan diri sendiri bahwa teknik terhebat kedamaian dalam hidup adalah selalu memilih bersikap baik ketika Anda memiliki pilihan antara menjadi benar atau bersikap baik."
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="assets/img/motivation/Wayne Dyer.jpg" class="testimonial-img" alt="" />
-                  <h3>Wayne Dyer</h3>
-                  <h4>Motivational Speaker</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- End Testimonials Section -->
-
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container">
-          <div class="section-title" data-aos="fade-right">
-            <h2>Contact</h2>
-            <p>
-              If you want to contact me, you can use the contact provided.
-            </p>
-          </div>
-
-          <div class="row" data-aos="fade-in">
-            <div class="col-lg-9 d-flex align-items-stretch">
-              <div class="info">
-
-                <div class="email">
-                  <i class="bi bi-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>ahmadjafarali361@gmail.com</p>
-                </div>
-
-                <div class="email">
-                  <i class="bi bi-telegram"></i>
-                  <h4>Telegram:</h4>
-                  <p>JA_360</p>
-                </div>
-
-                <div class="email">
-                  <i class="bi bi-geo-alt-fill"></i>
-                  <h4>Location:</h4>
-                  <p>Surabaya</p>
-                </div>
-
-                <div class="email">
-                  <i class="bi bi-filetype-pdf"></i>
-                  <h4>Curriculum Vitae:</h4>
-                  <p>
-                    <a class="btn btn-outline-light btn-sm" href="assets/Curricullum_Vitae.pdf" role="button" target="_blank" download class="download-link"><span class="bi bi-filetype-pdf"></span>&nbsp; Download CV</a>
-                  </p>
-                </div>
-
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Contact Section -->
+      <!-- /Hero Section -->
     </main>
-    <!-- End #main -->
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
+    <footer id="footer" class="footer dark-background">
       <div class="container">
-        <div class="credits">
-          Made with <strong>LOVE</strong>
+        <h3 class="sitename">Myself</h3>
+        <p>"Apapun dirimu, jadilah yang terbaik."</p>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://facebook.com/ahmad.j.ali.5832" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/ja_far360/" target="_blank"><i class="bi bi-instagram"></i></a>
+          <a href="https://github.com/AhmadJafar360"><i class="bi bi-github" target="_blank"></i></a>
+          <a href="https://www.linkedin.com/in/ahmad-ja-far-ali-a5950522b/"><i class="bi bi-linkedin"></i></a>
         </div>
-        <div class="copyright">
-          <strong><span>Ahmad Ja'far Ali &copy; 2022</span></strong>
+        <div class="container">
+          <div class="copyright"><span>Made with</span> <strong class="px-1 sitename">Love</strong></div>
+          <div class="credits">Ahmad Ja'far Ali ©️ <a>2022</a></div>
         </div>
       </div>
     </footer>
-    <!-- End  Footer -->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center bg-black"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
     <!-- design JS Files -->
-    <script src="assets/design/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/design/aos/aos.js"></script>
     <script src="assets/design/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/design/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/design/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/design/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/design/typed.js/typed.min.js"></script>
+    <script src="assets/design/php-email-form/validate.js"></script>
+    <script src="assets/design/aos/aos.js"></script>
+    <script src="assets/design/typed.js/typed.umd.js"></script>
+    <script src="assets/design/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/design/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/design/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/design/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/design/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/design/isotope-layout/isotope.pkgd.min.js"></script>
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
